@@ -1,6 +1,4 @@
 🤖 17 anos.<br>
 📍 Belo Horizonte.
 ---
-![lucaspanzera1](resources/header.gif)
-
-
+<a href="https://lucaspanzera.netlify.app/">  <img src="resources/header.gif" alt="header"></a>
