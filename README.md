@@ -7,4 +7,4 @@
 </div>
 
 ---
-<a href="[https://lucaspanzera.netlify.app](https://portfolio-lucas-panzeras-projects.vercel.app/)/">  <img src="resources/header.gif" alt="header"></a>
+<img src="resources/header.gif" alt="header">
