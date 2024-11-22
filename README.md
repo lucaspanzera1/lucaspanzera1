@@ -7,4 +7,4 @@
 </div>
 
 ---
-<img src="resources/header.gif" alt="header">
+![Snake animation](https://github.com/lucaspanzera1/lucaspanzera1/blob/output/github-contribution-grid-snake.svg)
