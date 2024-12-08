@@ -1,6 +1,6 @@
 ### Lucas Panzera 
   Full-Stack Jr 🐉 </br>
-  Linguagens: PHP - JavaScript - C# - ReactJS 💻💚 </br>
+  Linguagens: PHP - JavaScript  - ReactJS 💻💚 </br>
   Técnico em Informática formado pelo Colégio COTEMIG 👨‍💻 </br></br>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%23b99efc?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-panzera/)
 [![Portfólio](https://img.shields.io/badge/Portfólio-%23b99efc?style=for-the-badge&logo=web&logoColor=white)](https://lucaspanzera.vercel.app/)
