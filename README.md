@@ -1,6 +1,6 @@
 [![CEFET](https://img.shields.io/badge/CEFET--MG-Engenharia-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)](https://www.cefetmg.br/)
 [![Website](https://img.shields.io/badge/Website-lucaspanzera.com-blue?style=for-the-badge&logo=globe&logoColor=white)](https://www.lucaspanzera.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucaspanzera1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-panzera)
 
 ## 🎓 Sobre mim
 
