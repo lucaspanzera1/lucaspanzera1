@@ -4,7 +4,7 @@
 
 ## 🎓 Sobre mim
 
-Atuo com Suporte na SYDLE, estudo de **Engenharia** no **CEFET-MG**, apaixonado por tecnologia e infraestrutura. Atualmente focado em desenvolvimento full stack e DevOps, sempre explorando novas tecnologias e construindo soluções escaláveis.
+Atuo com Suporte na SYDLE, estudo **Engenharia** no **CEFET-MG**, apaixonado por tecnologia e infraestrutura. Atualmente focado em desenvolvimento full stack e DevOps, sempre explorando novas tecnologias e construindo soluções escaláveis.
 
 ## 🛠️ Stack Principal
 
