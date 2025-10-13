@@ -25,5 +25,5 @@
 #### **Últimos projetos**
 
 <a href="https://stelestial.app/"><img src="https://stelestial.app/_next/static/media/logo.aabf6480.svg" alt="Stelestial Software" width="50" height="50"></a>
-<a href="https://novoden0v0.com.br"><img src="https://raw.githubusercontent.com/stelestial/novoden0v0/refs/heads/main/apps/web/public/icon.png" alt="NovoDeNovo" width="50" height="50"></a>
+<a href="https://novoden0v0.com.br"><img src="https://novoden0v0.com.br/icon.png" alt="NovoDeNovo" width="50" height="50"></a>
 <a href="https://www.youtube.com/watch?v=FxNJWu2T4ow"><img src="https://raw.githubusercontent.com/lucaspanzera1/osphone/refs/heads/main/apps/web/public/logo.png" alt="OSPHONE" width="50" height="50"></a>
