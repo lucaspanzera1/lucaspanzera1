@@ -74,14 +74,27 @@
             0% { transform: translateX(0); }
             100% { transform: translateX(-50%); }
         }
-        
+
+        /* O wrapper contém dois conjuntos de ícones idênticos. A animação move -50% para criar um loop perfeito. */
         .tech-scroll {
-            animation: scroll 20s linear infinite;
+            display: inline-flex;
+            align-items: center;
+            animation: scroll 18s linear infinite;
+            will-change: transform;
         }
-        
+
+        /* Duplicado recebe mesmo estilo; o container controla overflow */
+        .tech-scroll-duplicate {
+            display: inline-flex;
+            align-items: center;
+            animation: scroll 18s linear infinite;
+            animation-delay: -9s; /* starto offset para suavizar ao iniciar */
+        }
+
         .tech-container {
             position: relative;
             overflow: hidden;
+            white-space: nowrap;
         }
         
         .tech-container::before,
@@ -98,20 +111,28 @@
         
         .tech-container::before {
             left: 0;
-            background: linear-gradient(to right, rgb(255, 255, 255), transparent);
+            background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
         }
-        
+
         .tech-container::after {
             right: 0;
-            background: linear-gradient(to left, rgb(255, 255, 255), transparent);
+            background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
         }
         
         .dark .tech-container::before {
-            background: linear-gradient(to right, rgb(3, 7, 18), transparent);
+            background: linear-gradient(to right, rgba(3,7,18,1), rgba(3,7,18,0));
         }
-        
+
         .dark .tech-container::after {
-            background: linear-gradient(to left, rgb(3, 7, 18), transparent);
+            background: linear-gradient(to left, rgba(3,7,18,1), rgba(3,7,18,0));
+        }
+
+        /* Pause animation on hover (and when user focuses via keyboard) */
+        .tech-container:hover .tech-scroll,
+        .tech-container:focus-within .tech-scroll,
+        .tech-container:hover .tech-scroll-duplicate,
+        .tech-container:focus-within .tech-scroll-duplicate {
+            animation-play-state: paused !important;
         }
     </style>
 </head>
@@ -177,6 +198,8 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="w-10 h-10 tech-icon flex-shrink-0" title="Docker" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" class="w-10 h-10 tech-icon flex-shrink-0" title="Linux" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-10 h-10 tech-icon flex-shrink-0" title="Git" />
+                    <img src="https://cache.promovaweb.com/category-thumb/63c54cc67a5a7cloudflare.png" alt="Git" class="w-10 h-10 tech-icon flex-shrink-0" title="Git" />
+                
                     <!-- Duplicate for seamless loop -->
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="w-10 h-10 tech-icon flex-shrink-0" title="TypeScript" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-10 h-10 tech-icon flex-shrink-0" title="React" />
@@ -188,6 +211,8 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="w-10 h-10 tech-icon flex-shrink-0" title="Docker" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" class="w-10 h-10 tech-icon flex-shrink-0" title="Linux" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-10 h-10 tech-icon flex-shrink-0" title="Git" />
+                    <img src="https://cache.promovaweb.com/category-thumb/63c54cc67a5a7cloudflare.png" alt="Git" class="w-10 h-10 tech-icon flex-shrink-0" title="Git" />
+                
                 </div>
             </div>
             
@@ -219,11 +244,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                                     </svg>
                                 </a>
-                                                              <a href="https://github.com/stelestial/novoden0v0" target="_blank" class="inline-flex items-center text-sm text-blue-600 dark:text-blue-400 hover:underline">
-                                    Visite o repositório
-                                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                                    </svg>
+                                                              
                                 </a>
                             </div>
                         </div>
@@ -233,7 +254,7 @@
                 <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
                     <div id="project-stelestial-card" onclick="toggleProject('stelestial')" class="w-full link-card flex items-center justify-between p-5 group cursor-pointer">
                         <div class="flex items-center gap-4 flex-1">
-                            <img src="https://raw.githubusercontent.com/stelestial/stelestial-page/refs/heads/main/public/images/logo.png" alt="Stelestial" class="w-10 h-10" />
+                            <img src="https://www.stelestial.app/_next/static/media/logo.aabf6480.svg" alt="Stelestial" class="w-10 h-10" />
                             <div>
                                 <div class="font-semibold text-gray-900 dark:text-gray-100">Stelestial</div>
                                 <div class="text-sm text-gray-600 dark:text-gray-400">Página institucional da minha empresa</div>
@@ -270,10 +291,10 @@
                 <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
                     <div id="project-osphone-card" onclick="toggleProject('osphone')" class="w-full link-card flex items-center justify-between p-5 group cursor-pointer">
                         <div class="flex items-center gap-4 flex-1">
-                            <img src="https://raw.githubusercontent.com/lucaspanzera1/osphone/refs/heads/main/apps/web/public/logo.png" alt="OSPHONE" class="w-10 h-10 rounded-lg" />
+                            <img src="https://www.osphone.app/img/logo.png" alt="OSPHONE" class="w-10 h-10 rounded-lg" />
                             <div>
                                 <div class="font-semibold text-gray-900 dark:text-gray-100">OSPhone</div>
-                                <div class="text-sm text-gray-600 dark:text-gray-400">Saas para Assistências Técnicas</div>
+                                <div class="text-sm text-gray-600 dark:text-gray-400">MVP Saas para Assistências Técnicas</div>
                             </div>
                         </div>
                         <svg id="project-osphone-arrow" class="w-5 h-5 text-gray-400 dark:text-gray-500 transform transition-transform duration-200 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -298,18 +319,15 @@
                                     <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
                                     </svg>
-                                                              <a href="https://github.com/lucaspanzera1/osphone" target="_blank" class="inline-flex items-center text-sm text-blue-600 dark:text-blue-400 hover:underline">
-                                    Visite o repositório
-                                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                                    </svg>
+                                                              
+                                    
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                   <!-- Service Desk -->
-                <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+                <!-- <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
                     <div id="project-servicedesk-card" onclick="toggleProject('servicedesk')" class="w-full link-card flex items-center justify-between p-5 group cursor-pointer">
                         <div class="flex items-center gap-4 flex-1">
                             <img src="https://emojitool.com/img/whatsapp/2.25.1.75/2.25.1.75-247.png" alt="Service Desk" class="w-10 h-10 rounded-lg" />
@@ -324,9 +342,9 @@
                     </div>
                     <div id="project-servicedesk-content" class="overflow-hidden transition-all duration-200 max-h-0">
                         <div class="p-5 pt-0">
-                            <!-- <div class="prose dark:prose-invert max-w-none">
+                           <div class="prose dark:prose-invert max-w-none">
                                 <iframe src="https://github-readme-stats.vercel.app/api/pin/?username=SEU_USER&repo=servicedesk&theme=github_dark" frameborder="0" class="w-full max-w-lg rounded-lg"></iframe>
-                            </div> -->
+                            </div>
                                             <div class="mt-4">
                                                               <a href="https://github.com/stelestial/servicedesk" target="_blank" class="inline-flex items-center text-sm text-blue-600 dark:text-blue-400 hover:underline">
                                     Visite o repositório
@@ -337,10 +355,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Arenarental -->
-                <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+                <!-- <div class="rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
                     <div id="project-arenarental-card" onclick="toggleProject('arenarental')" class="w-full link-card flex items-center justify-between p-5 group cursor-pointer">
                         <div class="flex items-center gap-4 flex-1">
                             <img src="https://raichu-uploads.s3.amazonaws.com/logo_faculdade-cotemig_jeR1PV.png" alt="ArenaRental" class="w-10 h-10 rounded-lg" />
@@ -367,7 +385,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <!-- Social Links -->
