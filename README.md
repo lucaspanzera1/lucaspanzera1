@@ -24,5 +24,21 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
+</p>
 
+**`Últimos projetos`**
+
+<p>
+      <a href="https://stelestial.app" target="_blank">
+    <img src="https://raw.githubusercontent.com/lucaspanzera1/stelestial-page/refs/heads/main/public/images/logo%20budget.png" alt="Stelestial" width="40px"/>
+  </a>
+  <a href="https://novoden0v0.com.br" target="_blank">
+    <img src="https://novoden0v0.com.br/icon.png" alt="Projeto NovoDeNovo" width="40px"/>
+  </a>
+    <a href="https://www.osphone.app" target="_blank">
+    <img src="https://www.osphone.app/img/logo.png" alt="Projeto OSPhone" width="40px"/>
+  </a>
+  <a href="https://delivery.stelestial.app" target="_blank">
+    <img src="https://delivery.stelestial.app/logo.png" alt="Projeto Delivery App" width="40px"/>
+  </a>
 </p>
