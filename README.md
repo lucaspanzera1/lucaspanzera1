@@ -1,7 +1,7 @@
 **`Lucas Panzera🦦`** **`FullStack / DevOps`**
 ```diff
 @@Sobre mim 🦦@@
-- 18 anos
+- 19 anos
 + Belo Horizonte, Minas Gerais 🇧🇷
 ! Engenharia de Transportes / CEFET-MG
 ```
