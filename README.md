@@ -16,7 +16,7 @@ my best projects:
 </ul>
   pages
 <ul>
-  <li>resenha confirmada: <a href="https://simulado-ia-chi.vercel.app/">simulado.ai</a> 🤖</li>
+  <li>simulado ai: <a href="https://simulado-ia-chi.vercel.app/">simulado.ai</a> 🤖</li>
   <li>resenha confirmada: <a href="https://www.resenhaconfirmada.com.br">resenhaconfirmada.com.br</a> ⚽️</li>
 </ul>
 </samp>
