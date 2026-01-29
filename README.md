@@ -8,6 +8,10 @@ info:
   <li>i like working with <b>web</b>. TypeScript, Docker, MongoDB 🐳</li>
   <li>brazilian 🇧🇷 (<abbr title="Portuguese - Brazil">pt-br</abbr> / <abbr title="English">en</abbr>)</li>
 </ul>
+   building
+<ul>
+  <li>resenha confirmada: <a href="https://www.treinavaga.tech/">treinavaga ai</a> 🤖</li>
+</ul>
 my best projects:
 <ul>
   <li>resenha confirmada: <a href="https://app.resenhaconfirmada.com.br">resenhaconfirmada.app</a> ⚽️</li>
@@ -16,7 +20,6 @@ my best projects:
 </ul>
   pages
 <ul>
-  <li>simulado ai: <a href="https://simulado-ia-chi.vercel.app/">simulado.ai</a> 🤖</li>
   <li>resenha confirmada: <a href="https://www.resenhaconfirmada.com.br">resenhaconfirmada.com.br</a> ⚽️</li>
 </ul>
 </samp>
