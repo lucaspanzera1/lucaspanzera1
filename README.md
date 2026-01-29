@@ -10,7 +10,7 @@ info:
 </ul>
    building
 <ul>
-  <li>treinavaga ai: <a href="https://www.treinavaga.tech/">treinavaga.tech</a> 🤖</li>
+  <li>treina vaga ai: <a href="https://www.treinavaga.tech/">treinavaga.tech</a> 🤖</li>
 </ul>
 my best projects:
 <ul>
