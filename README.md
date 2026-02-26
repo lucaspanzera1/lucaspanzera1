@@ -11,6 +11,7 @@ info:
    building
 <ul>
   <li>treina vaga ai: <a href="https://www.treinavaga.tech/">treinavaga.tech</a> 🤖</li>
+   <li>osphone: <a href="https://www.osphone.app/">osphone.app</a> 📱</li>
 </ul>
 my best projects:
 <ul>
