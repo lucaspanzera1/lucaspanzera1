@@ -17,6 +17,6 @@ my best projects:
   <li>arena rental: <a href="https://github.com/lucaspanzera1/ArenaRental">github/ArenaRental</a> 🏀</li>
 </ul>
 <ul>
-  <li><a href="https://www.lucaspanzera.com">lucaspanzera.com</a><</li>
+  <li><a href="https://www.lucaspanzera.com">>lucaspanzera.com</a></li>
 </ul>
 </samp>
