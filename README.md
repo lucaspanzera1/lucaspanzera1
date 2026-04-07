@@ -16,6 +16,11 @@ my best projects:
   <li>resenha confirmada: <a href="https://app.resenhaconfirmada.com.br">resenhaconfirmada.app</a> ⚽️</li>
   <li>arena rental: <a href="https://github.com/lucaspanzera1/ArenaRental">github/ArenaRental</a> 🏀</li>
 </ul>
+  os native projects
+<ul>
+  <li>ipad notebook with ai: <a href="https://github.com/lucaspanzera1/ai-canvas">github/ai-canvas</a> 💡</li>
+  <li>personal ai assistant on notion: <a href="https://github.com/lucaspanzera1/personal-assistant">github/personal-assistant</a> 🦾</li>
+</ul>
 <ul>
   <li><a href="https://www.lucaspanzera.com">>lucaspanzera.com</a></li>
 </ul>
