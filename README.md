@@ -19,7 +19,7 @@ my best projects:
   os native projects
 <ul>
   <li>ipad notebook with ai: <a href="https://github.com/lucaspanzera1/ai-canvas">github/ai-canvas</a> 💡</li>
-  <li>personal ai assistant on notion: <a href="https://github.com/lucaspanzera1/personal-assistant">github/personal-assistant</a> 🦾</li>
+  <li>macos ai assistant on notion: <a href="https://github.com/lucaspanzera1/personal-assistant">github/personal-assistant</a> 🦾</li>
 </ul>
 <ul>
   <li><a href="https://www.lucaspanzera.com">>lucaspanzera.com</a></li>
